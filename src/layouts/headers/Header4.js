@@ -9,7 +9,7 @@ const Header4 = () => {
   const [mobileTrigger, setMobileTrigger] = useState(false);
   return (
     <header className="template-header sticky-header sticky-secondary-bg absolute-header header-four">
-      <div className="header-top-note">
+      {/* <div className="header-top-note">
         <div className="container container-1450">
           <p>
             Looking For a Dental Specialists ? Right Place We Are Here For
@@ -19,7 +19,7 @@ const Header4 = () => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="container container-1450">
         <div className="header-navigation navigation-white-color">
           <div className="header-left">
