@@ -58,13 +58,13 @@ const Footer1 = ({ noNewsletters }) => {
                     <li>
                       <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
                         <i className="far fa-map-marker-alt" />
-                        Ramakrishna Road, IT
+                       57  Ramakrishna Road, Colombo 00600
                       </a>
                     </li>
                     <li>
                       <a href="mailto:support@gmail.com">
                         <i className="far fa-envelope" />
-                        iitrotaract@gmail.com
+                        rciit.3220@gmail.com
                       </a>
                     </li>
                     <li>
@@ -168,11 +168,13 @@ const Footer1 = ({ noNewsletters }) => {
               </div>
               <div className="col-lg-3 col-md-10">
                 <div className="widget newsletters-widget">
-                  <h4 className="widget-title">Check out our blogs </h4>
-                  <p>
-                    ADD THE ROTARACT LOGO HERE <br /> natus error sit
-                    voluptatem
-                  </p>
+                  <h4 className="widget-title">Check out other blogs </h4>
+                  <div className="footer-logo">
+                    <a href="https://www.raciit.org/">
+                    <img src="assets/img/rotalogo.png" alt="Medibo" />
+                    </a>
+                  
+                  </div>
                   {/* <form
                     onSubmit={(e) => e.preventDefault()}
                     action="#"
