@@ -18,25 +18,22 @@ const Footer1 = ({ noNewsletters }) => {
                 <div className="col-xl-6 col-lg-8 col-md-10">
                   <div className="cta-content text-center">
                     <div className="section-heading heading-white">
-                      <span className="tagline">Get Free Consultations</span>
+
                       <h2 className="title">
-                        Looking a Doctors to Get Your Services
+                        Make a Difference Today
                       </h2>
+
+                      <p>Your donation can help us break the stigma around menstruation and provide essential menstrual hygiene resources to women and girls in need.
+
+                      </p>
                     </div>
                     <ul className="cta-buttons d-flex justify-content-center flex-wrap">
                       <li>
-                        <a href="#" className="template-btn template-btn-white">
-                          Get Free Quote <i className="far fa-plus" />
+                        <a href="https://forms.gle/eGaVaYnrU7WZEZ316" className="template-btn template-btn-white" target="_blank" rel="noopener noreferrer">
+                          Donate Now <i className="far fa-plus" />
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="template-btn template-btn-bordered"
-                        >
-                          Get Appointment <i className="far fa-plus" />
-                        </a>
-                      </li>
+
                     </ul>
                   </div>
                 </div>
@@ -55,26 +52,25 @@ const Footer1 = ({ noNewsletters }) => {
                     <img src="assets/img/logo.png" alt="Medibo" />
                   </div>
                   <p>
-                    Sed ut perspi unde omniste natus error sit voluptatem acc
-                    doloremque laudantium
+                    For more information or to get involved, contact us:
                   </p>
                   <ul className="contact-list">
                     <li>
                       <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
                         <i className="far fa-map-marker-alt" />
-                        55 Main Road, USA
+                        Ramakrishna Road, IT
                       </a>
                     </li>
                     <li>
                       <a href="mailto:support@gmail.com">
                         <i className="far fa-envelope" />
-                        support@gmail.com
+                        iitrotaract@gmail.com
                       </a>
                     </li>
                     <li>
                       <a href="tel:01267899">
                         <i className="far fa-phone" />
-                        +012 (345) 678 99
+                        +94 76 536 8956
                       </a>
                     </li>
                   </ul>
@@ -82,7 +78,7 @@ const Footer1 = ({ noNewsletters }) => {
               </div>
               <div className="col-lg-6">
                 <div className="row">
-                  <div className="col-xl-5 col-md-6">
+                  {/* <div className="col-xl-5 col-md-6">
                     <div className="widget nav-widget">
                       <h4 className="widget-title">Popular Services</h4>
                       <ul className="nav-links">
@@ -106,7 +102,7 @@ const Footer1 = ({ noNewsletters }) => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-xl-7 col-md-6">
                     <div className="widget instagram-widget">
                       <h4 className="widget-title">Photo Gallery</h4>
@@ -172,12 +168,12 @@ const Footer1 = ({ noNewsletters }) => {
               </div>
               <div className="col-lg-3 col-md-10">
                 <div className="widget newsletters-widget">
-                  <h4 className="widget-title">Newsletters</h4>
+                  <h4 className="widget-title">Check out our blogs </h4>
                   <p>
-                    Sed ut perspiciatis unde omniste <br /> natus error sit
+                    ADD THE ROTARACT LOGO HERE <br /> natus error sit
                     voluptatem
                   </p>
-                  <form
+                  {/* <form
                     onSubmit={(e) => e.preventDefault()}
                     action="#"
                     className="newsletters-form"
@@ -186,14 +182,14 @@ const Footer1 = ({ noNewsletters }) => {
                     <button type="submit">
                       <i className="far fa-arrow-right" />
                     </button>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="copyright-area">
             <p>
-              © 2021 <a href="#">Seeva</a>. All Rights Reserved
+              © 2024 <a href="https://www.raciit.org">Rotaract Club Of IIT</a>. All Rights Reserved
             </p>
           </div>
         </div>

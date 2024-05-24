@@ -7,7 +7,7 @@ import Layouts from "../src/layouts/Layouts";
 const About = () => {
   const [toggle, setToggle] = useState(1);
   return (
-    <Layouts footer={2}>
+    <Layouts footer={1}>
       <PageBanner title={"About"} />
       <section className="about-section section-gap">
         <div className="container">
@@ -62,18 +62,15 @@ const About = () => {
             <div className="col-xl-5 col-lg-6 col-md-8">
               <div className="about-text">
                 <div className="section-heading mb-35">
-                  <span className="tagline">About Seeva</span>
-                  <h2 className="title">All-in-One Worksite Health Solution</h2>
 
-                  <p>25 Years Of Experience in Medical Services</p>
+                  <h2 className="title">About WeCan</h2>
+
+                  {/* <p>25 Years Of Experience in Medical Services</p> */}
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam rem aperieaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatemsy quia
-                  voluptas sit aspernatur aut odit aut fugit quia conquntur
-                  magni dolores eos qui ratione voluptatem
+                  In many parts of the world, including Sri Lanka, menstruation remains a highly stigmatized topic due to cultural norms and misconceptions. To address this issue, the Rotaract Club of IIT has launched WeCan, an initiative dedicated to promoting menstrual hygiene and health. <br />Our mission is to break the silence around menstruation and empower women and girls with knowledge and access to proper menstrual hygiene resources. We aim to raise awareness, tackle gender inequality, prevent diseases, and advocate for the use of reusable menstrual products. <br />
+
+                  <br /> WeCan operates through education and advocacy, addressing specific challenges and promoting sustainable solutions. Our goal is to create a stigma-free environment where every woman and girl can manage menstruation with dignity and confidence. By fostering a supportive community, we strive to improve the overall well-being of women and girls in our society.
                 </p>
                 <Link href="/about">
                   <a className="template-btn mt-40">
@@ -89,7 +86,7 @@ const About = () => {
 
       <div className="wcu-with-doctors">
         {/* <!--====== Why Choose Section Start ======--> */}
-        <section className="wcu-section section-gap-top">
+        {/* <section className="wcu-section section-gap-top">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-10">
@@ -152,7 +149,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!--====== Why Choose Section End ======--> */}
 
         {/* <!--====== Doctor Section Start ======--> */}

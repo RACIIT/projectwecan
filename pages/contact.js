@@ -4,11 +4,11 @@ import Layouts from "../src/layouts/Layouts";
 
 const Contact = () => {
   return (
-    <Layouts footer={2}>
+    <Layouts footer={1}>
       <PageBanner title={"Contact Us"} />
       {/*====== Page Title End ======*/}
       {/*====== Contact Info Section Start ======*/}
-      <section className="section-gap contact-top-wrappper">
+      {/* <section className="section-gap contact-top-wrappper">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-5 col-lg-6 col-md-10">
@@ -126,16 +126,16 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Contact Info Section End ======*/}
       {/*====== Contact Form Start ======*/}
       <section className="contact-form-area">
-        <div className="contact-map">
+        {/* <div className="contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107201.226767341!2d-74.05027451789393!3d40.71534534062428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1634195102348!5m2!1sen!2sbd"
             loading="lazy"
           />
-        </div>
+        </div> */}
         <div className="section-gap">
           <div className="container">
             <div className="row justify-content-center">

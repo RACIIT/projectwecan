@@ -24,7 +24,7 @@ const Header4 = () => {
         <div className="header-navigation navigation-white-color">
           <div className="header-left">
             <div className="site-logo">
-              <Link href="/">
+              <Link href="/index-four">
                 <a>
                   <img src="assets/img/logo-white.png" alt="" />
                 </a>
@@ -33,29 +33,27 @@ const Header4 = () => {
             <nav className="site-menu menu-gap-left item-extra-gap d-none d-xl-block">
               <ul className="primary-menu">
                 <li>
-                  <Link href="/">
-                    <a>
+                  <Link href="/index-four">
+                  Home
+                    {/* <a>
                       Home
                       <span className="dd-trigger">
                         <i className="far fa-plus" />
                       </span>
-                    </a>
+                    </a> */}
                   </Link>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <Home />
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Pages
-                    <span className="dd-trigger">
-                      <i className="far fa-plus" />
-                    </span>
-                  </a>
-                  <ul className="sub-menu">
+                  <span className="dd-trigger">
+                    <Link href="/gallery">Our Gallery</Link>
+                  </span>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link href="service">
                         <a>
@@ -70,9 +68,9 @@ const Header4 = () => {
                       </ul>
                     </li>
                     <Pages />
-                  </ul>
+                  </ul> */}
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/doctor">
                     <a>
                       Doctors
@@ -84,7 +82,7 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Doctor />
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="blog-standard">
                     <a>
@@ -98,7 +96,7 @@ const Header4 = () => {
                     <Blog />
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/shop">
                     <a>
                       Shop
@@ -110,7 +108,7 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Shop />
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/contact">Contact</Link>
                 </li>
@@ -119,7 +117,7 @@ const Header4 = () => {
           </div>
           <div className="header-right">
             <ul className="extra-icons">
-              <li className="d-none d-sm-block">
+              {/* <li className="d-none d-sm-block">
                 <a href="#" className="cart-icon">
                   <i className="far fa-shopping-cart"></i>
                 </a>
@@ -128,7 +126,7 @@ const Header4 = () => {
                 <a href="#" className="wishlist-icon">
                   <i className="far fa-heart"></i>
                 </a>
-              </li>
+              </li> */}
               <li className="d-none d-xl-block">
                 <div
                   className="off-canvas-btn"

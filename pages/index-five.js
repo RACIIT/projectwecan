@@ -2591,7 +2591,7 @@ const Index5 = () => {
               </div>
               <div className="copyright-area">
                 <p>
-                  © 2021 <a href="#">Seeva</a>. All Rights Reserved
+                © 2024 <a href="https://www.raciit.org">Rotaract Club Of IIT</a>. All Rights Reserved
                 </p>
               </div>
             </div>

@@ -3,6 +3,8 @@ import ScrollTop from "../components/ScrollTop";
 import { animation, niceSelect, progressBar, stickyNav } from "../utils";
 import Footer from "./footers/Footer";
 import HeadersLayouts from "./headers/HeadersLayouts";
+import Footer1 from "./footers/Footer1";
+import Footer2 from "./footers/Footer2";
 
 const Layouts = ({
   children,

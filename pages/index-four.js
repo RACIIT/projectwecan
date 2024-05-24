@@ -15,7 +15,7 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 const Index4 = () => {
   const [video, setVideo] = useState(false);
   return (
-    <Layouts noheader footer={2}>
+    <Layouts noheader footer={1}>
       {video && <VideoPopup close={setVideo} />}
       <Header4 />
       <>
@@ -32,19 +32,19 @@ const Index4 = () => {
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-md-9">
                     <div className="hero-content text-center">
-                      <span
+                      {/* <span
                         className="tagline"
                         data-animation="fadeInDown"
                         data-delay="0.5s"
                       >
-                        Love Respect &amp; Care
-                      </span>
+                       Empower. Educate. End the Stigma
+                      </span> */}
                       <h1
                         className="title"
                         data-animation="fadeInLeft"
                         data-delay="0.6s"
                       >
-                        Trusted Dental Care Center
+                       Empower. Educate. End the Stigma
                       </h1>
                       <a
                         href="#"
@@ -52,7 +52,7 @@ const Index4 = () => {
                         data-animation="fadeInUp"
                         data-delay="0.7s"
                       >
-                        Explore Our Service <i className="far fa-plus" />
+                        Explore <i className="far" />
                       </a>
                     </div>
                   </div>
