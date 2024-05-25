@@ -217,12 +217,10 @@ const Contact = () => {
                   <h2 className="title">Join us to Break The Stigma</h2>
                 </div>
                 <form
-                  onSubmit={(e) => e.preventDefault()}
-                  action="#"
-                  className="contact-form"
-                  method="POST"
+                  onSubmit={(e) => {}}
+                  action="https://submit-form.com/81HsrhAWU"
+                  className="contact-form"  
                   // eslint-disable-next-line react/no-unknown-property
-                  netlify
                   
                 >
                   <div className="row">
