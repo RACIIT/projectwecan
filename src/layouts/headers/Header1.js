@@ -70,9 +70,9 @@ const Header1 = ({ headerTopbar, position }) => {
         <div className="header-navigation">
           <div className="header-left">
             <div className="site-logo">
-              <Link href="/">
+              {/* <Link href="/">
                 <img src="assets/img/logo.png" alt="Seeva" />
-              </Link>
+              </Link> */}
             </div>
             <nav className="site-menu menu-gap-left d-none d-xl-block">
               <ul className="primary-menu">
