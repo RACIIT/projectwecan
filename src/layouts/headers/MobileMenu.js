@@ -21,7 +21,10 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
         </div>
         <nav className="mobile-menu">
           <ul className="primary-menu">
-            <li className="active">
+          <li>
+              <Link href="/index-four">Home</Link>
+            </li>
+            {/* <li className="active">
               <a href="#">
                 Home
                 <span
@@ -34,11 +37,15 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
               <ul className="sub-menu" style={activeLi("demo")}>
                 <Home />
               </ul>
-            </li>
+            </li> */}
             <li>
               <Link href="/about">About</Link>
             </li>
-            <li>
+          
+                <li>
+                  <Link href="/doctor">Blog</Link>
+                </li>
+            {/* <li>
               <a href="#">
                 Pages
                 <span
@@ -53,8 +60,8 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
 
                 <Pages />
               </ul>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#">
                 Blog
                 <span
@@ -67,7 +74,7 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
               <ul className="sub-menu" style={activeLi("Blog")}>
                 <Blog />
               </ul>
-            </li>
+            </li> */}
             {/* <li>
               <a href="#">
                 Shop
@@ -82,7 +89,8 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
                 <Shop />
               </ul>
             </li> */}
-            <li className="active">
+            
+            <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>

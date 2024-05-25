@@ -213,8 +213,8 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="section-heading mb-60 text-center">
-                  <span className="tagline">{`We're Ready To Help You`}</span>
-                  <h2 className="title">Leave a Message</h2>
+                  {/* <span className="tagline">{`We're Ready To Help You`}</span> */}
+                  <h2 className="title">Join us to Break The Stigma</h2>
                 </div>
                 <form
                   onSubmit={(e) => e.preventDefault()}
@@ -224,21 +224,21 @@ const Contact = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="name">Your Full Name</label>
+                        <label htmlFor="name">First Name</label>
                         <input
                           type="text"
-                          placeholder="Michael M. Smith"
-                          id="name"
+                          placeholder="Michael"
+                          id="fname"
                         />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="email">Email Address</label>
+                      <label htmlFor="name">Last Name</label>
                         <input
-                          type="email"
-                          placeholder="support@gmail.com"
-                          id="email"
+                          type="text"
+                          placeholder=" Smith"
+                          id="lname"
                         />
                       </div>
                     </div>
@@ -247,18 +247,19 @@ const Contact = () => {
                         <label htmlFor="number">Phone Number</label>
                         <input
                           type="text"
-                          placeholder="+012 (345) 678 99"
+                          placeholder="0765368956"
                           id="number"
                         />
                       </div>
                     </div>
+                    
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="website">Website</label>
+                        <label htmlFor="website">Email Address</label>
                         <input
-                          type="url"
-                          placeholder="www.seeva.com"
-                          id="website"
+                          type="email"
+                          placeholder="support@gmail.com"
+                          id="email"
                         />
                       </div>
                     </div>

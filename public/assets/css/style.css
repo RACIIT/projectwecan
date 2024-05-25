@@ -72,7 +72,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-	--color-primary: #ff6f91; /* Vibrant pink */
+	--color-primary: #ff95ae; /* Vibrant pink */
 --color-primary-dark: #d9556e; /* Darker pink for text on lighter backgrounds */
 --color-primary-07: rgba(255, 111, 145, 0.07);
 --color-primary-10: rgba(255, 111, 145, 0.1);
@@ -88,7 +88,8 @@
 --color-fourth: #cc6077; /* Deep pink */
 --color-fourth-light: #e38192; /* Lighter deep pink for backgrounds */
 
---color-heading: #e2628b97; /* Dark pink */
+--color-heading: #df6c90eb; /* Dark pink */
+--color-heading-page-title:#eb638eb8;
 --color-heading-07: rgba(179, 68, 103, 0.07);
 --color-heading-10: rgba(179, 68, 103, 0.1);
 --color-heading-50: rgba(179, 68, 103, 0.5);
@@ -105,8 +106,8 @@
 	/* Pure black */
 
 
-	--font-inter: 'Inter', sans-serif;
-	--font-lora: 'Lora', serif;
+	--font-inter: 'Poppins', sans-serif;
+	--font-lora: 'Montserrat', serif;
 }
 
 body {
@@ -137,7 +138,10 @@ img {
 }
 
 h1,
-h2,
+h2{
+	font-weight: 500;
+	color: var(--color-fourth);
+}
 h3,
 h4,
 h5,
@@ -168,7 +172,7 @@ ol {
 p {
 	margin: 0px;
 	font-size: 1.2rem;
-	line-height: 1.3rem;
+	line-height: 1.6rem;
 }
 
 a {
@@ -5202,6 +5206,7 @@ button {
 
 .partner-logo-grid .single-partner {
 	text-align: center;
+	margin-top: 2rem;
 	padding: 10px;
 	max-width: 25%;
 	-webkit-box-flex: 0;
@@ -5254,7 +5259,7 @@ button {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 @media (max-width: 991px) {
@@ -5274,12 +5279,12 @@ button {
 
 .partner-logo-grid.grid-border-white img {
 	opacity: 1;
+
 }
 
 .partner-logo-box a {
 	background-color: var(--color-white);
-	width: 100%;
-	height: 90px;
+	width: 110px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -7620,7 +7625,7 @@ button {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background-color: var(--color-heading);
+	background-color: var(--color-heading-page-title);
 	opacity: 0.85;
 }
 

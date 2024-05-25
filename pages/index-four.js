@@ -25,44 +25,6 @@ const Index4 = () => {
               <div
                 className="hero-slider-bg bg-size-cover"
                 style={{
-                  backgroundImage: "url(assets/img/hero-img/hero-slider-4.jpg)",
-                }}
-              />
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-lg-10 col-md-9">
-                    <div className="hero-content text-center">
-                      {/* <span
-                        className="tagline"
-                        data-animation="fadeInDown"
-                        data-delay="0.5s"
-                      >
-                       Empower. Educate. End the Stigma
-                      </span> */}
-                      <h1
-                        className="title"
-                        data-animation="fadeInLeft"
-                        data-delay="0.6s"
-                      >
-                        Empowerment Sustainabillity Inclusivity
-                      </h1>
-                      <a
-                        href="#"
-                        className="template-btn"
-                        data-animation="fadeInUp"
-                        data-delay="0.7s"
-                      >
-                        Explore <i className="far" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="single-hero-slider">
-              <div
-                className="hero-slider-bg bg-size-cover"
-                style={{
                   backgroundImage: "url(assets/img/hero-img/hero-slider-5.jpg)",
                 }}
               />
@@ -70,28 +32,14 @@ const Index4 = () => {
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-md-9">
                     <div className="hero-content text-center">
-                      <span
-                        className="tagline"
-                        data-animation="fadeInDown"
-                        data-delay="0.5s"
-                      >
-                        Love Respect &amp; Care
-                      </span>
+                      
                       <h1
                         className="title"
                         data-animation="fadeInLeft"
                         data-delay="0.6s"
                       >
-                        Trusted Dental Care Center
+                        Empowerment Sustainabillity Inclusivity
                       </h1>
-                      <a
-                        href="#"
-                        className="template-btn"
-                        data-animation="fadeInUp"
-                        data-delay="0.7s"
-                      >
-                        Explore Our Service <i className="far fa-plus" />
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -102,15 +50,15 @@ const Index4 = () => {
         </section>
         {/*====== Hero Slider End ======*/}
         {/*====== Why Choose Section Start ======*/}
-        <section className="wcu-section-two">
+        <section className="wcu-section-two mt-5 mb-5">
           <div className="container-fluid">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 col-md-10">
                   <div className="section-heading mb-40">
-                    <span className="tagline">Why Choose Our Medical</span>
+
                     <h2 className="title">
-                      Breakthrough in Comprehensive, Flexible Care Models
+                      Redefining Menstruation: Awareness, Health, and Support
                     </h2>
                   </div>
                 </div>
@@ -122,7 +70,8 @@ const Index4 = () => {
                     data-wow-delay="0.3s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care-1" />
+                      <img src="assets/img/icon2.png" alt="Image" />
+                      {/* <i className="flaticon-dental-care-1" /> */}
                     </div>
                     <h4 className="title">
                       <a href="#">Break the stigma</a>
@@ -139,7 +88,7 @@ const Index4 = () => {
                     data-wow-delay="0.4s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care-2" />
+                      <img src="assets/img/icon4.png" alt="Image" />
                     </div>
                     <h4 className="title">
                       <a href="#">Promote Health and Hygiene</a>
@@ -157,7 +106,7 @@ const Index4 = () => {
                     data-wow-delay="0.5s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care" />
+                      <img src="assets/img/icon3.png" alt="Image" />
                     </div>
                     <h4 className="title">
                       <a href="#">Combat Period poverty
@@ -173,64 +122,73 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== Why Choose Section End ======*/}
-         {/*====== Why Choose Section Start ======*/}
-         <section className="wcu-section section-gap-top">
+        {/*====== Why Choose Section Start ======*/}
+        <section className="wcu-section section-gap-top">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-10">
                 <div className="section-heading heading-white text-center mb-40">
-                  <span className="tagline">Why Choose Our Medical</span>
+
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                    What We Do
                   </h2>
+                  <span className="tagline">Core pillars of Project WeCan</span>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
+
               <div
                 className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
                 <div className="image-title-box mt-30">
-                  <h4 className="title">
-                    <Link href="/service">
-                      <a>Optimize Your Health Care Services</a>
-                    </Link>
-                  </h4>
-                  <div className="image">
-                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-                data-wow-delay="0.4s"
-              >
-                <div className="image-title-box mt-30">
-                  <h4 className="title">
-                    <Link href="/service">
-                      <a>Boost Employee Engagement</a>
-                    </Link>
-                  </h4>
+
                   <div className="image">
                     <img src="assets/img/img-title-box/02.jpg" alt="Image" />
                   </div>
+                  {/* <div className="title mt-1">
+                    <h4>
+                      <Link href="/service">
+                        <a>Awareness Sessions</a>
+                      </Link>
+                    </h4>
+                    <p>Break the stigma surrounding periods and menstrual health by promoting education and open dialogue, and encouraging positive attitudes towards menstruation</p>
+                  </div> */}
+
+
                 </div>
+
               </div>
+              
               <div
                 className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-                data-wow-delay="0.5s"
+                data-wow-delay="0.3s"
               >
                 <div className="image-title-box mt-30">
-                  <h4 className="title">
-                    <Link href="/service">
-                      <a>Accelerate Your Return On Investment</a>
-                    </Link>
-                  </h4>
+
+                  <div className="image">
+                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
+                  </div>
+
+
+                </div>
+
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div className="image-title-box mt-30">
+
                   <div className="image">
                     <img src="assets/img/img-title-box/03.jpg" alt="Image" />
                   </div>
+
+
                 </div>
+
               </div>
             </div>
           </div>
@@ -259,7 +217,7 @@ const Index4 = () => {
                     Make the switch to reusable menstrual products and join the movement towards sustainability and reducing waste
 
                   </p>
-                  <Link href="/doctor-details">
+                  <Link href="/doctor">
                     <a
                       className="template-btn mt-40 wow fadeInUp"
                       data-wow-delay="0.3s"
@@ -274,7 +232,7 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== About Section End ======*/}
-       
+
         {/*====== Doctors With Counter Start ======*/}
         <div className="doctors-with-counter">
           {/*====== Doctor Section Start ======*/}
@@ -468,8 +426,8 @@ const Index4 = () => {
 
         </div>
         {/*====== Doctors With Counter End ======*/}
-         {/*====== Testimonial Section Start ======*/}
-         <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
+        {/*====== Testimonial Section Start ======*/}
+        <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
           <div className="container">
             <div className="testimonial-slider-three">
               <div className="row justify-content-center">
@@ -488,8 +446,8 @@ const Index4 = () => {
           />
         </section>
         {/*====== Testimonial Section End ======*/}
-         {/*====== Help Section Start ======*/}
-         <section className="help-section section-gap">
+        {/*====== Help Section Start ======*/}
+        <section className="help-section section-gap">
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center">
               <div className="col-lg-6 col-md-10">
@@ -522,91 +480,71 @@ const Index4 = () => {
                   <p>
                     PLEASE FEEL FREE TO REACH OUT TO US IF YOU ARE INTERESTED IN MAKING A DONATION, SEEKING DONATIONS, OR EXPLORING PARTNERSHIP OPPORTUNITIES.
                   </p>
-                  <a
-                    href="#"
-                    className="template-btn mt-40 wow fadeInUp"
-                    data-wow-delay="0.3s"
-                  >
-                    Join Now <i className="far fa-plus" />
-                  </a>
+                  <Link href="/contact">
+                    <a
+
+                      className="template-btn mt-40 wow fadeInUp"
+                      data-wow-delay="0.3s"
+                    >
+                      Join Now <i className="far fa-plus" />
+                    </a>
+                  </Link>
+
                 </div>
               </div>
             </div>
           </div>
         </section>
         {/*====== Help Section End ======*/}
-          {/*====== Partner Section start ======*/}
-          <section className="partner-section section-gap bg-color-grey section-map-overly-2">
+        {/*====== Partner Section start ======*/}
+        <section className="partner-section section-gap bg-color-grey section-map-overly-2">
           <div className="container">
             <div className="section-heading text-center mb-50">
-              <h2 className="title">Sponsors and Partners</h2>
-              <p>Our esteemed sponsors and partners, whose collaboration has been instrumental in driving the success and reach of our project.</p>
+              <h2 className="title">Sponsors & Partners</h2>
+              <p >Our esteemed sponsors and partners, whose collaboration has been instrumental<br/> in driving the success and reach of our project.</p>
             </div>
             <div className="partner-logo-grid">
               <div className="single-partner">
-                <a href="#">
+                <a href="https://www.instagram.com/happybleeding/"  target="_blank" rel="noopener noreferrer">
                   <img
-                    src="assets/img/partner-logos/01-dark.png"
+                    src="assets/img/partner-logos/01.png"
                     alt="Partner"
                   />
                 </a>
               </div>
               <div className="single-partner">
-                <a href="#">
+                <a href="https://www.sampath.lk/"  target="_blank" rel="noopener noreferrer">
                   <img
-                    src="assets/img/partner-logos/02-dark.png"
+                    src="assets/img/partner-logos/02.png"
                     alt="Partner"
                   />
                 </a>
               </div>
               <div className="single-partner">
-                <a href="#">
+                <a href="https://www.instagram.com/digitalwireglobal/"  target="_blank" rel="noopener noreferrer">
                   <img
-                    src="assets/img/partner-logos/03-dark.png"
+                    src="assets/img/partner-logos/03.png"
                     alt="Partner"
                   />
                 </a>
               </div>
               <div className="single-partner">
-                <a href="#">
+                <a href="https://www.momijinatural.com/"  target="_blank" rel="noopener noreferrer">
                   <img
-                    src="assets/img/partner-logos/04-dark.png"
+                    src="assets/img/partner-logos/04.png"
                     alt="Partner"
                   />
                 </a>
               </div>
               <div className="single-partner">
-                <a href="#">
+                <a href="https://squaregroup.com/bussiness/square-pharmaceuticals-ltd/"  target="_blank" rel="noopener noreferrer">
                   <img
-                    src="assets/img/partner-logos/05-dark.png"
+                    src="assets/img/partner-logos/06.png"
                     alt="Partner"
                   />
                 </a>
               </div>
-              <div className="single-partner">
-                <a href="#">
-                  <img
-                    src="assets/img/partner-logos/06-dark.png"
-                    alt="Partner"
-                  />
-                </a>
-              </div>
-              <div className="single-partner">
-                <a href="#">
-                  <img
-                    src="assets/img/partner-logos/07-dark.png"
-                    alt="Partner"
-                  />
-                </a>
-              </div>
-              <div className="single-partner">
-                <a href="#">
-                  <img
-                    src="assets/img/partner-logos/08-dark.png"
-                    alt="Partner"
-                  />
-                </a>
-              </div>
+             
             </div>
           </div>
         </section>
@@ -653,7 +591,7 @@ const Index4 = () => {
               <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="latest-blog-two no-radius mt-30">
                   <div className="thumbnail">
-                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                    <img src="assets/img/latest-blog/04.jpg" alt="Image" />
                   </div>
                   <div className="blog-content">
 
@@ -677,37 +615,13 @@ const Index4 = () => {
               <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="latest-blog-two no-radius mt-30">
                   <div className="thumbnail">
-                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                    <img src="assets/img/latest-blog/05.jpg" alt="Image" />
                   </div>
                   <div className="blog-content">
 
                     <h4 className="blog-title">
                       <Link href="/blog-details">
                         <a>Lanka Business News</a>
-                      </Link>
-                    </h4>
-                    <p>
-                      Despite the majority of the Sri Lankan population being persons who experience periods, Sri Lanka is still playing catch up when it comes to the concept of menstruation.
-
-                    </p>
-                    <Link href="/blog-details">
-                      <a className="template-btn">
-                        Read More <i className="far fa-plus" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-10">
-                <div className="latest-blog-two no-radius mt-30">
-                  <div className="thumbnail">
-                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
-                  </div>
-                  <div className="blog-content">
-
-                    <h4 className="blog-title">
-                      <Link href="/blog-details">
-                        <a>Corp Coms</a>
                       </Link>
                     </h4>
                     <p>

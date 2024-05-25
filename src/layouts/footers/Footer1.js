@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer1 = ({ noNewsletters }) => {
@@ -54,12 +55,12 @@ const Footer1 = ({ noNewsletters }) => {
                   <p>
                     For more information or to get involved, contact us:
                   </p>
-                  
+
                   <ul className="contact-list">
                     <li>
                       <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
                         <i className="far fa-map-marker-alt" />
-                       57  Ramakrishna Road, Colombo 00600
+                        57  Ramakrishna Road, Colombo 00600
                       </a>
                     </li>
                     <li>
@@ -75,95 +76,86 @@ const Footer1 = ({ noNewsletters }) => {
                       </a>
                     </li>
                   </ul>
-                  
+
                 </div>
               </div>
-              
+
               <div className="col-lg-6">
                 <div className="row">
-                  {/* <div className="col-xl-5 col-md-6">
+                  <div className="col-xl-5 col-md-6">
                     <div className="widget nav-widget">
-                      <h4 className="widget-title">Popular Services</h4>
+                      <h4 className="widget-title">Pages</h4>
                       <ul className="nav-links">
                         <li>
-                          <a href="#">Orthopedic Care</a>
+                          <Link href={"/index-four"}>
+                            <a href="">Home</a>
+                          </Link>
+
+                        </li>
+                        {/* <li>
+                          <Link href={"/doctor"}>
+                            <a href="#">Shop</a>
+                          </Link>
+
+                        </li> */}
+                        <li>
+                          <Link href={"/doctor"}>
+                            <a href="#">Blogs</a>
+                          </Link>
+
                         </li>
                         <li>
-                          <a href="#">Gynecology Care</a>
+                          <Link href={"/about"}>
+                            <a href="#">About Us</a>
+                          </Link>
+
+
                         </li>
                         <li>
-                          <a href="#">Cardiology Care</a>
+                          <Link href={"/contact"}>
+                            <a href="#">Contact</a>
+                          </Link>
                         </li>
-                        <li>
-                          <a href="#">Dentistry Care</a>
-                        </li>
-                        <li>
-                          <a href="#">Gastroenterology</a>
-                        </li>
-                        <li>
-                          <a href="#">Urgent Care</a>
-                        </li>
+
                       </ul>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="col-xl-7 col-md-6">
                     <div className="widget instagram-widget">
-                      <h4 className="widget-title">Photo Gallery</h4>
+                      <h4 className="widget-title">Follow Us </h4>
                       <div className="instagram-images">
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/01.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/02.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/03.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/04.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/05.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/06.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
+
+                        <a href="https://www.instagram.com/rotaract_iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/01.jpg" alt="Instagram" />
+                          </div>
+                        </a>
+                        <a href="https://www.facebook.com/iitrotaract">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/02.jpg" alt="fb" />
+                          </div>
+                        </a>
+                        <a href="https://www.youtube.com/@iitrotaract">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/03.jpg" alt="yt" />
+                          </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@rotaract_iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/04.jpg" alt="tk" />
+                          </div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/rotaract-club-of-iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/05.jpg" alt="Linkedin" />
+                          </div>
+                        </a>
+                        <a href="https://www.raciit.org/">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/06.jpg" alt="wwww" />
+                          </div>
+                        </a>
+
                       </div>
                     </div>
                   </div>
@@ -174,9 +166,9 @@ const Footer1 = ({ noNewsletters }) => {
                   {/* <h4 className="widget-title">Check out other blogs </h4> */}
                   <div className="footer-logo">
                     <a href="https://www.raciit.org/">
-                    <img src="assets/img/rotalogo.png" alt="Medibo" />
+                      <img src="assets/img/rotalogo.png" alt="Medibo" />
                     </a>
-                  
+
                   </div>
                   {/* <form
                     onSubmit={(e) => e.preventDefault()}

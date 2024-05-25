@@ -36,19 +36,12 @@
 
         img {
             opacity: 1;
-            transition: 0.3s;
-            opacity: 0.5;
-
             @include respond-below(lg) {
                 max-width: 75%;
             }
         }
 
-        a:hover {
-            img {
-                opacity: 1;
-            }
-        }
+        
     }
 
     &.grid-border-white {
