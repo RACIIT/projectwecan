@@ -72,30 +72,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-	--color-primary: #ff6f91;
-	/* Vibrant pink */
-	--color-primary-07: rgba(255, 111, 145, 0.07);
-	--color-primary-10: rgba(255, 111, 145, 0.1);
-	--color-primary-20: rgba(255, 111, 145, 0.2);
-	--color-secondary: #ffa3c4;
-	/* Light pink */
-	--color-secondary-10: rgba(255, 163, 196, 0.1);
-	--color-tertiary: #ffccd5;
-	/* Very light pink */
-	--color-fourth: #cc6077;
-	/* Deep pink */
-	--color-heading: #b34467;
-	/* Dark pink */
-	--color-heading-07: rgba(179, 68, 103, 0.07);
-	--color-heading-10: rgba(179, 68, 103, 0.1);
-	--color-heading-50: rgba(179, 68, 103, 0.5);
-	--color-body: #cc7885;
-	/* Soft pink */
-	--color-grey: #f8e1e9;
-	/* Light grey with a pinkish tint */
-	--color-white: #fff;
-	/* Pure white */
-	--color-black: #000000;
+	--color-primary: #ff6f91; /* Vibrant pink */
+--color-primary-dark: #d9556e; /* Darker pink for text on lighter backgrounds */
+--color-primary-07: rgba(255, 111, 145, 0.07);
+--color-primary-10: rgba(255, 111, 145, 0.1);
+--color-primary-20: rgba(255, 111, 145, 0.2);
+
+--color-secondary: #ffa3c4; /* Light pink */
+--color-secondary-dark: #cc7a97; /* Darker light pink for contrast */
+--color-secondary-10: rgba(255, 163, 196, 0.1);
+
+--color-tertiary: #ffccd5; /* Very light pink */
+--color-tertiary-dark: #cc9ca2; /* Darker light pink for text */
+
+--color-fourth: #cc6077; /* Deep pink */
+--color-fourth-light: #e38192; /* Lighter deep pink for backgrounds */
+
+--color-heading: #e2628b97; /* Dark pink */
+--color-heading-07: rgba(179, 68, 103, 0.07);
+--color-heading-10: rgba(179, 68, 103, 0.1);
+--color-heading-50: rgba(179, 68, 103, 0.5);
+
+--color-body: #cc7885; /* Soft pink */
+--color-body-dark: #a25666; /* Darker soft pink for text */
+
+--color-grey: #f8e1e9; /* Light grey with a pinkish tint */
+--color-grey-dark: #d1b6bf; /* Darker grey for text */
+
+--color-white: #fff; /* Pure white */
+--color-black: #000000; /* Pure black */
+
 	/* Pure black */
 
 
@@ -161,6 +167,8 @@ ol {
 
 p {
 	margin: 0px;
+	font-size: 1.2rem;
+	line-height: 1.3rem;
 }
 
 a {
@@ -7612,7 +7620,7 @@ button {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background-color: var(--color-primary);
+	background-color: var(--color-heading);
 	opacity: 0.85;
 }
 

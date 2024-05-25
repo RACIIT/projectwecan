@@ -15,7 +15,7 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 const Index4 = () => {
   const [video, setVideo] = useState(false);
   return (
-    <Layouts noheader footer={2}>
+    <Layouts noheader footer={1}>
       {video && <VideoPopup close={setVideo} />}
       <Header4 />
       <>
@@ -32,19 +32,19 @@ const Index4 = () => {
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-md-9">
                     <div className="hero-content text-center">
-                      <span
+                      {/* <span
                         className="tagline"
                         data-animation="fadeInDown"
                         data-delay="0.5s"
                       >
-                        Love Respect &amp; Care
-                      </span>
+                       Empower. Educate. End the Stigma
+                      </span> */}
                       <h1
                         className="title"
                         data-animation="fadeInLeft"
                         data-delay="0.6s"
                       >
-                        Trusted Dental Care Center
+                        Empowerment Sustainabillity Inclusivity
                       </h1>
                       <a
                         href="#"
@@ -52,7 +52,7 @@ const Index4 = () => {
                         data-animation="fadeInUp"
                         data-delay="0.7s"
                       >
-                        Explore Our Service <i className="far fa-plus" />
+                        Explore <i className="far" />
                       </a>
                     </div>
                   </div>
@@ -125,12 +125,11 @@ const Index4 = () => {
                       <i className="flaticon-dental-care-1" />
                     </div>
                     <h4 className="title">
-                      <a href="#">Tooth Protection</a>
+                      <a href="#">Break the stigma</a>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis natusserror voluptatem
-                      accusantium doloremque laudan tium totam rem aperiam eaque
-                      quae
+                      Breaking the period stigma through education and open dialogue and encouraging positive attitudes towards menstruation
+
                     </p>
                   </div>
                 </div>
@@ -143,12 +142,12 @@ const Index4 = () => {
                       <i className="flaticon-dental-care-2" />
                     </div>
                     <h4 className="title">
-                      <a href="#">Teeth Whitening</a>
+                      <a href="#">Promote Health and Hygiene</a>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis natusserror voluptatem
-                      accusantium doloremque laudan tium totam rem aperiam eaque
-                      quae
+
+                      Promoting menstrual health and hygiene for all.
+
                     </p>
                   </div>
                 </div>
@@ -161,13 +160,75 @@ const Index4 = () => {
                       <i className="flaticon-dental-care" />
                     </div>
                     <h4 className="title">
-                      <a href="#">Cosmetic Dentistry</a>
+                      <a href="#">Combat Period poverty
+                      </a>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis natusserror voluptatem
-                      accusantium doloremque laudan tium totam rem aperiam eaque
-                      quae
+                      Combat period poverty with sustainable and reusable products.
                     </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*====== Why Choose Section End ======*/}
+         {/*====== Why Choose Section Start ======*/}
+         <section className="wcu-section section-gap-top">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-10">
+                <div className="section-heading heading-white text-center mb-40">
+                  <span className="tagline">Why Choose Our Medical</span>
+                  <h2 className="title">
+                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Optimize Your Health Care Services</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Boost Employee Engagement</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/02.jpg" alt="Image" />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Accelerate Your Return On Investment</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/03.jpg" alt="Image" />
                   </div>
                 </div>
               </div>
@@ -177,210 +238,47 @@ const Index4 = () => {
         {/*====== Why Choose Section End ======*/}
         {/*====== About Section Start ======*/}
         <section className="about-section section-gap-top">
-          <div className="container">
+          <div className="container mx-auto my-4">
             <div className="row align-items-end justify-content-center">
-              <div className="col-xl-5 col-lg-8 col-sm-10">
-                <div className="about-content about-content-gap">
-                  <div className="section-heading mb-35">
-                    <span className="tagline">About Jarred M. Castaneda</span>
-                    <h2 className="title">Hello This Is Jarred M. Castaneda</h2>
-                    <p>Professional Dental Specialist (25 Years)</p>
-                  </div>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit volupta
-                    tem accusantium doloremque laudantium totam rem aperiam
-                    eaque ipsa quae abillo inventore veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo.
-                  </p>
-                  <Link href="/doctor-details">
-                    <a
-                      className="template-btn mt-40 wow fadeInUp"
-                      data-wow-delay="0.3s"
-                    >
-                      Learn More <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
               <div className="col-xl-7 col-lg-8 col-md-8 order-xl-first">
                 <div className="bordered-icon-wrapper hide-icon-md">
                   <img
                     src="assets/img/section-img/about-img-2.png"
                     alt="AboutImg"
                   />
-                  <div className="border-icon">
-                    <img src="assets/img/icon/shield.png" alt="Icon" />
-                  </div>
                 </div>
               </div>
+              <div className="col-xl-5 col-lg-8 col-sm-10">
+                <div className="about-content about-content-gap">
+                  <div className="section-heading mb-35">
+
+                    <h2 className="title">Start your journey with reusable menstrual products</h2>
+
+                  </div>
+                  <p>
+                    Make the switch to reusable menstrual products and join the movement towards sustainability and reducing waste
+
+                  </p>
+                  <Link href="/doctor-details">
+                    <a
+                      className="template-btn mt-40 wow fadeInUp"
+                      data-wow-delay="0.3s"
+                    >
+                      Shop Here <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
         {/*====== About Section End ======*/}
-        {/*====== Service Section Start ======*/}
-        <section className="service-section bg-color-primary section-gap-top">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-6 col-md-10">
-                <div className="section-heading heading-white text-center mb-70">
-                  <span className="tagline">Popular Dental Services</span>
-                  <h2 className="title">
-                    Benefit FOr Physical Mental and Virtual Care
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="iconic-boxes-big-image">
-              <div className="row justify-content-lg-between justify-content-center first-row">
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 first-column">
-                  <div
-                    className="single-iconic-item wow fadeInLeft"
-                    data-wow-delay="0.4s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Teeth Fitting</a>
-                    </h4>
-                    <p>Sed ut perspic unde omnis serror voluptatem</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 second-column">
-                  <div
-                    className="single-iconic-item wow fadeInRight"
-                    data-wow-delay="0.4s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Orthodontics</a>
-                    </h4>
-                    <p>Sed ut perspic unde omnis serror voluptatem</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row justify-content-lg-between justify-content-center second-row">
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 first-column">
-                  <div
-                    className="single-iconic-item wow fadeInLeft"
-                    data-wow-delay="0.5s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Orthodontics</a>
-                    </h4>
-                    <p>Sed ut perspic unde omnis serror voluptatem</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 second-column">
-                  <div
-                    className="single-iconic-item wow fadeInRight"
-                    data-wow-delay="0.5s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Tooth Extractions</a>
-                    </h4>
-                    <p>Sed ut perspic unde omnis serror voluptatem</p>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="assets/img/iconic-box/tooth.png"
-                alt="Image"
-                className="big-image"
-              />
-              <img
-                src="assets/img/iconic-box/border-line.png"
-                alt="Image"
-                className="border-image"
-              />
-            </div>
-          </div>
-        </section>
-        {/*====== Service Section End ======*/}
-        {/*====== Appointment Section Start ======*/}
-        <section className="appointment-section section-gap">
-          <div className="container">
-            <div className="appointment-form-two">
-              <div className="form-wrap">
-                <div className="section-heading mb-40">
-                  <span className="tagline">Make an Appointment</span>
-                  <h2 className="title">Make an Appointment to Doctor Visit</h2>
-                </div>
-                <form
-                  onSubmit={(e) => e.preventDefault()}
-                  action="#"
-                  className="wow fadeInUp"
-                  data-wow-delay="0.3s"
-                >
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="input-field">
-                        <input type="text" placeholder="Your Full Name" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <select>
-                          <option value={1} selected disabled="">
-                            Services Category
-                          </option>
-                          <option value={2}>Service One</option>
-                          <option value={3}>Service Two</option>
-                          <option value={4}>Service Three</option>
-                          <option value={5}>Service Four</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <select>
-                          <option value={1} selected disabled="">
-                            Choose Doctors
-                          </option>
-                          <option value={2}>Doctor One</option>
-                          <option value={3}>Doctor Two</option>
-                          <option value={4}>Doctor Three</option>
-                          <option value={5}>Doctor Four</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <input type="date" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <button type="submit" className="template-btn">
-                          Make an Appointment <i className="far fa-plus" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <div
-                className="appointment-image"
-                style={{
-                  backgroundImage: "url(assets/img/appointment/05.jpg)",
-                }}
-              ></div>
-            </div>
-          </div>
-        </section>
-        {/*====== Appointment Section End ======*/}
+       
         {/*====== Doctors With Counter Start ======*/}
         <div className="doctors-with-counter">
           {/*====== Doctor Section Start ======*/}
-          <section className="doctors-section bg-color-grey polygon-pattern-2">
+          {/* <section className="doctors-section bg-color-grey polygon-pattern-2">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-6">
@@ -565,61 +463,33 @@ const Index4 = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Doctor Section End ======*/}
-          {/*====== Counter Section Start ======*/}
-          <section className="counter-section">
-            <div className="container">
-              <div className="counter-inner-three bg-color-secondary">
-                <div className="row justify-content-between">
-                  <div className="col-lg-auto col-md-5 col-sm-6">
-                    <div className="counter-item counter-white">
-                      <div className="counter-wrap">
-                        {/* <span className="counter">359</span> */}
-                        <Counter end={359} />
-                        <span className="suffix">+</span>
-                      </div>
-                      <h6 className="title">Professional Doctors</h6>
-                    </div>
-                  </div>
-                  <div className="col-lg-auto col-md-5 col-sm-6">
-                    <div className="counter-item counter-white">
-                      <div className="counter-wrap">
-                        <Counter end={85} />
-                        {/* <span className="counter">85</span> */}
-                        <span className="suffix">k+</span>
-                      </div>
-                      <h6 className="title">Saticfied Our Clients</h6>
-                    </div>
-                  </div>
-                  <div className="col-lg-auto col-md-5 col-sm-6">
-                    <div className="counter-item counter-white">
-                      <div className="counter-wrap">
-                        <Counter end={863} />
-                        {/* <span className="counter">863</span> */}
-                        <span className="suffix">+</span>
-                      </div>
-                      <h6 className="title">Win International Awards</h6>
-                    </div>
-                  </div>
-                  <div className="col-lg-auto col-md-5 col-sm-6">
-                    <div className="counter-item counter-white">
-                      <div className="counter-wrap">
-                        <Counter end={86} />
-                        <span className="suffix">k+</span>
-                      </div>
-                      <h6 className="title">4.9 Star Reviews</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/*====== Counter Section End ======*/}
+
         </div>
         {/*====== Doctors With Counter End ======*/}
-        {/*====== Help Section Start ======*/}
-        <section className="help-section section-gap">
+         {/*====== Testimonial Section Start ======*/}
+         <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
+          <div className="container">
+            <div className="testimonial-slider-three">
+              <div className="row justify-content-center">
+                <TestimoinalSlider />
+              </div>
+              <div className="slider-arrows" />
+            </div>
+          </div>
+          <div
+            className="bg-one"
+            style={{ backgroundImage: "url(assets/img/testimonial/bg-2.jpg)" }}
+          />
+          <div
+            className="bg-two"
+            style={{ backgroundImage: "url(assets/img/testimonial/bg-3.jpg)" }}
+          />
+        </section>
+        {/*====== Testimonial Section End ======*/}
+         {/*====== Help Section Start ======*/}
+         <section className="help-section section-gap">
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center">
               <div className="col-lg-6 col-md-10">
@@ -645,24 +515,19 @@ const Index4 = () => {
               <div className="col-xl-5 col-lg-6 col-md-8">
                 <div className="help-content">
                   <div className="section-heading mb-30">
-                    <span className="tagline">How Can We Help</span>
                     <h2 className="title">
-                      Flexible &amp; Responsive to Changing Needs
+                      Interested to be a part of this initiative?
                     </h2>
                   </div>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium doloremque laudantium totam aperiam eaqueds ipsa
-                    quae ab illo inventore veritatis et quasi architecto beatae
-                    vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                    voluptas sit aspernatur aut odit aut fugit sed amet
+                    PLEASE FEEL FREE TO REACH OUT TO US IF YOU ARE INTERESTED IN MAKING A DONATION, SEEKING DONATIONS, OR EXPLORING PARTNERSHIP OPPORTUNITIES.
                   </p>
                   <a
                     href="#"
                     className="template-btn mt-40 wow fadeInUp"
                     data-wow-delay="0.3s"
                   >
-                    Learn More <i className="far fa-plus" />
+                    Join Now <i className="far fa-plus" />
                   </a>
                 </div>
               </div>
@@ -670,35 +535,92 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== Help Section End ======*/}
-        {/*====== Testimonial Section Start ======*/}
-        <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
+          {/*====== Partner Section start ======*/}
+          <section className="partner-section section-gap bg-color-grey section-map-overly-2">
           <div className="container">
-            <div className="testimonial-slider-three">
-              <div className="row justify-content-center">
-                <TestimoinalSlider />
+            <div className="section-heading text-center mb-50">
+              <h2 className="title">Sponsors and Partners</h2>
+              <p>Our esteemed sponsors and partners, whose collaboration has been instrumental in driving the success and reach of our project.</p>
+            </div>
+            <div className="partner-logo-grid">
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/01-dark.png"
+                    alt="Partner"
+                  />
+                </a>
               </div>
-              <div className="slider-arrows" />
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/02-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/03-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/04-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/05-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/06-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/07-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
+              <div className="single-partner">
+                <a href="#">
+                  <img
+                    src="assets/img/partner-logos/08-dark.png"
+                    alt="Partner"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-          <div
-            className="bg-one"
-            style={{ backgroundImage: "url(assets/img/testimonial/bg-2.jpg)" }}
-          />
-          <div
-            className="bg-two"
-            style={{ backgroundImage: "url(assets/img/testimonial/bg-3.jpg)" }}
-          />
         </section>
-        {/*====== Testimonial Section End ======*/}
+        {/*====== Partner Section end ======*/}
+
         {/*====== Latest Blog Start ======*/}
         <section className="latest-blog-section section-gap">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-6 col-md-9">
                 <div className="section-heading text-center mb-40">
-                  <span className="tagline">Latest News &amp; Blog</span>
+
                   <h2 className="title">
-                    Get Every Single Updates For Medical &amp; Health
+                    News &amp; Blogs
                   </h2>
                 </div>
               </div>
@@ -710,22 +632,15 @@ const Index4 = () => {
                     <img src="assets/img/latest-blog/07.jpg" alt="Image" />
                   </div>
                   <div className="blog-content">
-                    <div className="blog-meta">
-                      <a href="#" className="blog-category">
-                        Health
-                      </a>
-                      <a href="#" className="blog-date">
-                        <i className="far fa-calendar-alt" /> 25 Aug 2021
-                      </a>
-                    </div>
+
                     <h4 className="blog-title">
                       <Link href="/blog-details">
-                        <a>Comprehensive Worksire Health Progranm Built</a>
+                        <a>The Morning LK</a>
                       </Link>
                     </h4>
                     <p>
-                      Sed perspiciatis unde omnis natus error voluptatem
-                      accusantium dolore mque laudantium totam rem
+                      Despite the majority of the Sri Lankan population being persons who experience.........
+
                     </p>
                     <Link href="/blog-details">
                       <a className="template-btn">
@@ -738,25 +653,18 @@ const Index4 = () => {
               <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="latest-blog-two no-radius mt-30">
                   <div className="thumbnail">
-                    <img src="assets/img/latest-blog/08.jpg" alt="Image" />
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
                   </div>
                   <div className="blog-content">
-                    <div className="blog-meta">
-                      <a href="#" className="blog-category">
-                        Health
-                      </a>
-                      <a href="#" className="blog-date">
-                        <i className="far fa-calendar-alt" /> 25 Aug 2021
-                      </a>
-                    </div>
+
                     <h4 className="blog-title">
                       <Link href="/blog-details">
-                        <a>Front-End Performance Checklist 2021 PDF</a>
+                        <a>Biz Com.lk</a>
                       </Link>
                     </h4>
                     <p>
-                      Sed perspiciatis unde omnis natus error voluptatem
-                      accusantium dolore mque laudantium totam rem
+                      Despite the majority of the Sri Lankan population being persons who experience periods................
+
                     </p>
                     <Link href="/blog-details">
                       <a className="template-btn">
@@ -769,25 +677,18 @@ const Index4 = () => {
               <div className="col-lg-4 col-md-6 col-sm-10">
                 <div className="latest-blog-two no-radius mt-30">
                   <div className="thumbnail">
-                    <img src="assets/img/latest-blog/09.jpg" alt="Image" />
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
                   </div>
                   <div className="blog-content">
-                    <div className="blog-meta">
-                      <a href="#" className="blog-category">
-                        Health
-                      </a>
-                      <a href="#" className="blog-date">
-                        <i className="far fa-calendar-alt" /> 25 Aug 2021
-                      </a>
-                    </div>
+
                     <h4 className="blog-title">
                       <Link href="/blog-details">
-                        <a>DevTools Debugging Tips Shortcut Chrome Fire</a>
+                        <a>Lanka Business News</a>
                       </Link>
                     </h4>
                     <p>
-                      Sed perspiciatis unde omnis natus error voluptatem
-                      accusantium dolore mque laudantium totam rem
+                      Despite the majority of the Sri Lankan population being persons who experience periods, Sri Lanka is still playing catch up when it comes to the concept of menstruation.
+
                     </p>
                     <Link href="/blog-details">
                       <a className="template-btn">
@@ -797,6 +698,31 @@ const Index4 = () => {
                   </div>
                 </div>
               </div>
+              <div className="col-lg-4 col-md-6 col-sm-10">
+                <div className="latest-blog-two no-radius mt-30">
+                  <div className="thumbnail">
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                  </div>
+                  <div className="blog-content">
+
+                    <h4 className="blog-title">
+                      <Link href="/blog-details">
+                        <a>Corp Coms</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Despite the majority of the Sri Lankan population being persons who experience periods............
+
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="template-btn">
+                        Read More <i className="far fa-plus" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>

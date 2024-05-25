@@ -4,11 +4,83 @@ import Layouts from "../src/layouts/Layouts";
 
 const Contact = () => {
   return (
-    <Layouts footer={2}>
+    <Layouts footer={1}>
       <PageBanner title={"Contact Us"} />
       {/*====== Page Title End ======*/}
+       {/*====== Appointment Section Start ======*/}
+       {/* <section className="appointment-section section-gap">
+          <div className="container">
+            <div className="appointment-form-two">
+              <div className="form-wrap">
+                <div className="section-heading mb-40">
+                  <span className="tagline">Make an Appointment</span>
+                  <h2 className="title">Make an Appointment to Doctor Visit</h2>
+                </div>
+                <form
+                  onSubmit={(e) => e.preventDefault()}
+                  action="#"
+                  className="wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="input-field">
+                        <input type="text" placeholder="Your Full Name" />
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="input-field">
+                        <select>
+                          <option value={1} selected disabled="">
+                            Services Category
+                          </option>
+                          <option value={2}>Service One</option>
+                          <option value={3}>Service Two</option>
+                          <option value={4}>Service Three</option>
+                          <option value={5}>Service Four</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="input-field">
+                        <select>
+                          <option value={1} selected disabled="">
+                            Choose Doctors
+                          </option>
+                          <option value={2}>Doctor One</option>
+                          <option value={3}>Doctor Two</option>
+                          <option value={4}>Doctor Three</option>
+                          <option value={5}>Doctor Four</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="input-field">
+                        <input type="date" />
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="input-field">
+                        <button type="submit" className="template-btn">
+                          Make an Appointment <i className="far fa-plus" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div
+                className="appointment-image"
+                style={{
+                  backgroundImage: "url(assets/img/appointment/05.jpg)",
+                }}
+              ></div>
+            </div>
+          </div>
+        </section> */}
+        {/*====== Appointment Section End ======*/}
       {/*====== Contact Info Section Start ======*/}
-      <section className="section-gap contact-top-wrappper">
+      {/* <section className="section-gap contact-top-wrappper">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-5 col-lg-6 col-md-10">
@@ -126,16 +198,16 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Contact Info Section End ======*/}
       {/*====== Contact Form Start ======*/}
       <section className="contact-form-area">
-        <div className="contact-map">
+        {/* <div className="contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107201.226767341!2d-74.05027451789393!3d40.71534534062428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1634195102348!5m2!1sen!2sbd"
             loading="lazy"
           />
-        </div>
+        </div> */}
         <div className="section-gap">
           <div className="container">
             <div className="row justify-content-center">

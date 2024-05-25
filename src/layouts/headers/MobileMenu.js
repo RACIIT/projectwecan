@@ -56,20 +56,6 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
             </li>
             <li>
               <a href="#">
-                Doctors
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("Doctor")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("Doctor")}>
-                <Doctor />
-              </ul>
-            </li>
-            <li>
-              <a href="#">
                 Blog
                 <span
                   className="dd-trigger"
@@ -82,7 +68,7 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
                 <Blog />
               </ul>
             </li>
-            <li>
+            {/* <li>
               <a href="#">
                 Shop
                 <span
@@ -95,7 +81,7 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
               <ul className="sub-menu" style={activeLi("shop")}>
                 <Shop />
               </ul>
-            </li>
+            </li> */}
             <li className="active">
               <Link href="/contact">Contact</Link>
             </li>

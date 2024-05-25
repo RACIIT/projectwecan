@@ -9,7 +9,7 @@ const Header4 = () => {
   const [mobileTrigger, setMobileTrigger] = useState(false);
   return (
     <header className="template-header sticky-header sticky-secondary-bg absolute-header header-four">
-      <div className="header-top-note">
+      {/* <div className="header-top-note">
         <div className="container container-1450">
           <p>
             Looking For a Dental Specialists ? Right Place We Are Here For
@@ -19,12 +19,12 @@ const Header4 = () => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="container container-1450">
         <div className="header-navigation navigation-white-color">
           <div className="header-left">
             <div className="site-logo">
-              <Link href="/">
+              <Link href="/index-four">
                 <a>
                   <img src="assets/img/logo-white.png" alt="" />
                 </a>
@@ -33,28 +33,29 @@ const Header4 = () => {
             <nav className="site-menu menu-gap-left item-extra-gap d-none d-xl-block">
               <ul className="primary-menu">
                 <li>
-                  <Link href="/">
-                    <a>
+                  <Link href="/index-four">
+                  Home
+                    {/* <a>
                       Home
                       <span className="dd-trigger">
                         <i className="far fa-plus" />
                       </span>
-                    </a>
+                    </a> */}
                   </Link>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <Home />
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Pages
-                    <span className="dd-trigger">
-                      <i className="far fa-plus" />
-                    </span>
-                  </a>
+                  <Link href="/doctor">Shop</Link>
+                </li>
+                {/* <li>
+                  <span className="dd-trigger">
+                    <Link href="/gallery">Our Gallery</Link>
+                  </span>
                   <ul className="sub-menu">
                     <li>
                       <Link href="service">
@@ -71,8 +72,8 @@ const Header4 = () => {
                     </li>
                     <Pages />
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link href="/doctor">
                     <a>
                       Doctors
@@ -84,8 +85,8 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Doctor />
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link href="blog-standard">
                     <a>
                       Blog
@@ -97,8 +98,8 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Blog />
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link href="/shop">
                     <a>
                       Shop
@@ -110,7 +111,7 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Shop />
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/contact">Contact</Link>
                 </li>
@@ -119,7 +120,7 @@ const Header4 = () => {
           </div>
           <div className="header-right">
             <ul className="extra-icons">
-              <li className="d-none d-sm-block">
+              {/* <li className="d-none d-sm-block">
                 <a href="#" className="cart-icon">
                   <i className="far fa-shopping-cart"></i>
                 </a>
@@ -128,7 +129,7 @@ const Header4 = () => {
                 <a href="#" className="wishlist-icon">
                   <i className="far fa-heart"></i>
                 </a>
-              </li>
+              </li> */}
               <li className="d-none d-xl-block">
                 <div
                   className="off-canvas-btn"
