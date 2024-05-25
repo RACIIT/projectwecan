@@ -74,7 +74,7 @@ const About = () => {
 
                   Since its initiation, our project has been carried forward by dedicated Community Service Directors each Rotary International (RI) year to ensure the continuity and success of our initiative. With their commitment and vision, the project thrives, making a lasting impact on menstrual health, hygiene, and sustainability in the communities we serve. Through the collective efforts of these Community Service Directors, we have been able to build upon previous achievements, expand our reach, and continually evolve our project to meet the evolving needs of individuals in need. <br /><br /> Join us on this journey of empowerment and sustainability as we strive to create a world where menstruation is celebrated, and menstrual health is a priority for all.
                 </p>
-                <Link href="/about">
+                <Link href="/index-four">
                   <a className="template-btn mt-40">
                     Learn More <i className="far fa-plus"></i>
                   </a>

@@ -9,193 +9,105 @@ const Doctor = () => {
       <PageBanner title={"Period Essentials"} />
       <section className="doctors-section section-gap">
         <div className="container">
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/01.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+        <div className="row justify-content-center latest-blog-loop">
+              <div className="col-lg-4 col-md-6 col-sm-10">
+                <div className="latest-blog-two no-radius mt-30">
+                  <div className="thumbnail">
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                  </div>
+                  <div className="blog-content">
+
+                    <h4 className="blog-title">
+                      <Link href="/blog-details">
+                        <a>The Morning LK</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Despite the majority of the Sri Lankan population being persons who experience.........
+
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="template-btn">
+                        Read More <i className="far fa-plus" />
+                      </a>
                     </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/02.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+              <div className="col-lg-4 col-md-6 col-sm-10">
+                <div className="latest-blog-two no-radius mt-30">
+                  <div className="thumbnail">
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                  </div>
+                  <div className="blog-content">
+
+                    <h4 className="blog-title">
+                      <Link href="/blog-details">
+                        <a>Biz Com.lk</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Despite the majority of the Sri Lankan population being persons who experience periods................
+
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="template-btn">
+                        Read More <i className="far fa-plus" />
+                      </a>
                     </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/03.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+              <div className="col-lg-4 col-md-6 col-sm-10">
+                <div className="latest-blog-two no-radius mt-30">
+                  <div className="thumbnail">
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                  </div>
+                  <div className="blog-content">
+
+                    <h4 className="blog-title">
+                      <Link href="/blog-details">
+                        <a>Lanka Business News</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Despite the majority of the Sri Lankan population being persons who experience periods............
+
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="template-btn">
+                        Read More <i className="far fa-plus" />
+                      </a>
                     </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/04.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Rudolph V. Spitler</a>
+              <div className="col-lg-4 col-md-6 col-sm-10">
+                <div className="latest-blog-two no-radius mt-30">
+                  <div className="thumbnail">
+                    <img src="assets/img/latest-blog/07.jpg" alt="Image" />
+                  </div>
+                  <div className="blog-content">
+
+                    <h4 className="blog-title">
+                      <Link href="/blog-details">
+                        <a>Corp Coms</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Despite the majority of the Sri Lankan population being persons who experience periods............
+
+                    </p>
+                    <Link href="/blog-details">
+                      <a className="template-btn">
+                        Read More <i className="far fa-plus" />
+                      </a>
                     </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  </div>
                 </div>
               </div>
+
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/05.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Frank T. Grimsley</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-         </div>
         </div>
       </section>
       {/* <!--====== Doctor Section End ======--> */}

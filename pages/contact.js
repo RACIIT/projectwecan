@@ -213,8 +213,8 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="section-heading mb-60 text-center">
-                  <span className="tagline">{`We're Ready To Help You`}</span>
-                  <h2 className="title">Leave a Message</h2>
+                  {/* <span className="tagline">{`We're Ready To Help You`}</span> */}
+                  <h2 className="title">Join us to Break The Stigma</h2>
                 </div>
                 <form
                   onSubmit={(e) => e.preventDefault()}
@@ -247,7 +247,7 @@ const Contact = () => {
                         <label htmlFor="number">Phone Number</label>
                         <input
                           type="text"
-                          placeholder="+012 (345) 678 99"
+                          placeholder="0765368956"
                           id="number"
                         />
                       </div>
@@ -257,7 +257,7 @@ const Contact = () => {
                         <label htmlFor="website">Website</label>
                         <input
                           type="url"
-                          placeholder="www.seeva.com"
+                          placeholder="www.raciit.org"
                           id="website"
                         />
                       </div>

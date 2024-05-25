@@ -50,7 +50,7 @@ const Header4 = () => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <Link href="/doctor">Shop</Link>
+                  <Link href="/doctor">Blog</Link>
                 </li>
                 {/* <li>
                   <span className="dd-trigger">
