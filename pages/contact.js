@@ -224,21 +224,21 @@ const Contact = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="name">Your Full Name</label>
+                        <label htmlFor="name">First Name</label>
                         <input
                           type="text"
-                          placeholder="Michael M. Smith"
-                          id="name"
+                          placeholder="Michael"
+                          id="fname"
                         />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="email">Email Address</label>
+                      <label htmlFor="name">Last Name</label>
                         <input
-                          type="email"
-                          placeholder="support@gmail.com"
-                          id="email"
+                          type="text"
+                          placeholder=" Smith"
+                          id="lname"
                         />
                       </div>
                     </div>
@@ -252,13 +252,14 @@ const Contact = () => {
                         />
                       </div>
                     </div>
+                    
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="website">Website</label>
+                        <label htmlFor="website">Email Address</label>
                         <input
-                          type="url"
-                          placeholder="www.raciit.org"
-                          id="website"
+                          type="email"
+                          placeholder="support@gmail.com"
+                          id="email"
                         />
                       </div>
                     </div>
