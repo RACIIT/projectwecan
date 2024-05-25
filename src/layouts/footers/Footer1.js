@@ -124,22 +124,38 @@ const Footer1 = ({ noNewsletters }) => {
                     <div className="widget instagram-widget">
                       <h4 className="widget-title">Follow Us </h4>
                       <div className="instagram-images">
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/01.jpg"
-                            alt="Instagram"
-                          />
-                         
-                        </div>
-                        <div className="single-image">
-                          <img
-                            src="assets/img/instagram/02.jpg"
-                            alt="Instagram"
-                          />
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </div>
+
+                        <a href="https://www.instagram.com/rotaract_iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/01.jpg" alt="Instagram" />
+                          </div>
+                        </a>
+                        <a href="https://www.facebook.com/iitrotaract">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/02.jpg" alt="fb" />
+                          </div>
+                        </a>
+                        <a href="https://www.youtube.com/@iitrotaract">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/03.jpg" alt="yt" />
+                          </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@rotaract_iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/04.jpg" alt="tk" />
+                          </div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/rotaract-club-of-iit">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/05.jpg" alt="Linkedin" />
+                          </div>
+                        </a>
+                        <a href="https://www.raciit.org/">
+                          <div className="single-image">
+                            <img src="assets/img/instagram/06.jpg" alt="wwww" />
+                          </div>
+                        </a>
+
                       </div>
                     </div>
                   </div>

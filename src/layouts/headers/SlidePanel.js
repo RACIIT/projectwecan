@@ -15,8 +15,8 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
         <div className="about-us">
           <h5 className="canvas-widget-title">About Us</h5>
           <p>
-            Sed perspiciatis unde omnis iste natus error voluptatem accusantium
-            doloremque laudantium totam rem aperams eaque ipsa quae abillo.
+          WeCan is committed to breaking the silence surrounding menstruation and empowering women and girls with knowledge and access to proper menstrual hygiene resources. Through education and advocacy,
+           we can combat the stigma associated with menstruation and improve the overall well-being of women and girls in our society.
           </p>
         </div>
         <div className="contact-us">
@@ -24,18 +24,18 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
           <ul>
             <li>
               <i className="far fa-map-marker-alt" />
-              354 Oakridge, Camden NJ 08102 - USA
+              57 Ramakrishna Road, Colombo 00600
             </li>
             <li>
               <i className="far fa-envelope-open" />
-              <a href="mailto:support@qolle.com">support@seeva.com</a>
-              <a href="mailto:info@qolle.com">info@seeva.com</a>
+              <a href="mailto:support@qolle.com">rciit.3220@gmail.com</a>
+              {/* <a href="mailto:info@qolle.com">info@seeva.com</a> */}
             </li>
             <li>
               <i className="far fa-phone" />
-              <a href="tel:+01234567899">+012 (345) 678 99</a>
+              <a href="tel:+01234567899">+94 76 536 8956</a>
               <br />
-              <a href="tel:+8563214">+8563214</a>
+              <a href="tel:+01234567899">+94 76 536 8956</a>
             </li>
           </ul>
         </div>

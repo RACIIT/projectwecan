@@ -454,13 +454,15 @@ const About = () => {
                   <p>
                     PLEASE FEEL FREE TO REACH OUT TO US IF YOU ARE INTERESTED IN MAKING A DONATION, SEEKING DONATIONS, OR EXPLORING PARTNERSHIP OPPORTUNITIES.
                   </p>
+                  <Link href={"/contact"}>
                   <a
-                    href="#"
                     className="template-btn mt-40 wow fadeInUp"
                     data-wow-delay="0.3s"
                   >
                     Join Now <i className="far fa-plus" />
                   </a>
+                  </Link>
+                 
                 </div>
               </div>
             </div>

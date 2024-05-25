@@ -47,7 +47,7 @@ const Header4 = () => {
                   </ul> */}
                 </li>
                 <li>
-                  <Link href="about">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
                   <Link href="/doctor">Blog</Link>
