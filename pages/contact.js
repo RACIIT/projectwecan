@@ -220,6 +220,10 @@ const Contact = () => {
                   onSubmit={(e) => e.preventDefault()}
                   action="#"
                   className="contact-form"
+                  method="POST"
+                  // eslint-disable-next-line react/no-unknown-property
+                  netlify
+                  
                 >
                   <div className="row">
                     <div className="col-md-6">
