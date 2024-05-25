@@ -46,14 +46,7 @@ const Index4 = () => {
                       >
                         Empowerment Sustainabillity Inclusivity
                       </h1>
-                      <a
-                        href="#"
-                        className="template-btn"
-                        data-animation="fadeInUp"
-                        data-delay="0.7s"
-                      >
-                        Explore <i className="far" />
-                      </a>
+                     
                     </div>
                   </div>
                 </div>
@@ -102,15 +95,15 @@ const Index4 = () => {
         </section>
         {/*====== Hero Slider End ======*/}
         {/*====== Why Choose Section Start ======*/}
-        <section className="wcu-section-two">
+        <section className="wcu-section-two mt-5 mb-5">
           <div className="container-fluid">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 col-md-10">
                   <div className="section-heading mb-40">
-                    <span className="tagline">Why Choose Our Medical</span>
+                  
                     <h2 className="title">
-                      Breakthrough in Comprehensive, Flexible Care Models
+                    Redefining Menstruation: Awareness, Health, and Support
                     </h2>
                   </div>
                 </div>
@@ -122,7 +115,8 @@ const Index4 = () => {
                     data-wow-delay="0.3s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care-1" />
+                    <img src="assets/img/icon2.png" alt="Image" />
+                      {/* <i className="flaticon-dental-care-1" /> */}
                     </div>
                     <h4 className="title">
                       <a href="#">Break the stigma</a>
@@ -139,7 +133,7 @@ const Index4 = () => {
                     data-wow-delay="0.4s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care-2" />
+                    <img src="assets/img/icon4.png" alt="Image" />
                     </div>
                     <h4 className="title">
                       <a href="#">Promote Health and Hygiene</a>
@@ -157,7 +151,7 @@ const Index4 = () => {
                     data-wow-delay="0.5s"
                   >
                     <div className="icon">
-                      <i className="flaticon-dental-care" />
+                    <img src="assets/img/icon3.png" alt="Image" />
                     </div>
                     <h4 className="title">
                       <a href="#">Combat Period poverty
@@ -179,58 +173,59 @@ const Index4 = () => {
             <div className="row justify-content-center">
               <div className="col-md-10">
                 <div className="section-heading heading-white text-center mb-40">
-                  <span className="tagline">Why Choose Our Medical</span>
+                
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                What We Do
                   </h2>
+                  <span className="tagline">Core pillars of Project WeCan</span>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
+            
               <div
                 className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
                 <div className="image-title-box mt-30">
-                  <h4 className="title">
-                    <Link href="/service">
-                      <a>Optimize Your Health Care Services</a>
-                    </Link>
-                  </h4>
+                 
                   <div className="image">
                     <img src="assets/img/img-title-box/01.jpg" alt="Image" />
                   </div>
+                  <div className="title mt-3">
+                  <h4>
+                    <Link href="/service">
+                      <a>Awareness Sessions</a>
+                    </Link>
+                  </h4>
+                  <p>Break the stigma surrounding periods and menstrual health by promoting education and open dialogue, and encouraging positive attitudes towards menstruation</p>
+                  </div>
+                
+                 
                 </div>
+                
               </div>
               <div
                 className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-                data-wow-delay="0.4s"
+                data-wow-delay="0.3s"
               >
                 <div className="image-title-box mt-30">
-                  <h4 className="title">
+                 
+                  <div className="image">
+                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
+                  </div>
+                  <div className="title mt-3">
+                  <h4>
                     <Link href="/service">
-                      <a>Boost Employee Engagement</a>
+                      <a>Awareness Sessions</a>
                     </Link>
                   </h4>
-                  <div className="image">
-                    <img src="assets/img/img-title-box/02.jpg" alt="Image" />
+                  <p>Break the stigma surrounding periods and menstrual health by promoting education and open dialogue, and encouraging positive attitudes towards menstruation</p>
                   </div>
+                
+                 
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-                data-wow-delay="0.5s"
-              >
-                <div className="image-title-box mt-30">
-                  <h4 className="title">
-                    <Link href="/service">
-                      <a>Accelerate Your Return On Investment</a>
-                    </Link>
-                  </h4>
-                  <div className="image">
-                    <img src="assets/img/img-title-box/03.jpg" alt="Image" />
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -259,7 +254,7 @@ const Index4 = () => {
                     Make the switch to reusable menstrual products and join the movement towards sustainability and reducing waste
 
                   </p>
-                  <Link href="/doctor-details">
+                  <Link href="/doctor">
                     <a
                       className="template-btn mt-40 wow fadeInUp"
                       data-wow-delay="0.3s"
@@ -522,13 +517,16 @@ const Index4 = () => {
                   <p>
                     PLEASE FEEL FREE TO REACH OUT TO US IF YOU ARE INTERESTED IN MAKING A DONATION, SEEKING DONATIONS, OR EXPLORING PARTNERSHIP OPPORTUNITIES.
                   </p>
+                  <Link href="/contact">
                   <a
-                    href="#"
+                   
                     className="template-btn mt-40 wow fadeInUp"
                     data-wow-delay="0.3s"
                   >
                     Join Now <i className="far fa-plus" />
                   </a>
+                  </Link>
+                
                 </div>
               </div>
             </div>
@@ -687,7 +685,7 @@ const Index4 = () => {
                       </Link>
                     </h4>
                     <p>
-                      Despite the majority of the Sri Lankan population being persons who experience periods, Sri Lanka is still playing catch up when it comes to the concept of menstruation.
+                      Despite the majority of the Sri Lankan population being persons who experience periods............
 
                     </p>
                     <Link href="/blog-details">
