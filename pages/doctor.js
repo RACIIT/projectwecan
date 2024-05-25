@@ -36,12 +36,12 @@ export const BlogPost = ({ image, title, desc , link }) => {
         </div>
         <div className="blog-content">
           <h4 className="blog-title">
-            <Link href="#">
+            <Link href={link}>
               <a href={link}>{title}</a>
             </Link>
           </h4>
           <p>{desc}</p>
-          <Link href={"#"}>
+          <Link href={link}>
             <a className="template-btn" href={link}>
               Read More <i className="far fa-plus" />
             </a>

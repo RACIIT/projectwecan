@@ -5,6 +5,7 @@ import Footer from "./footers/Footer";
 import HeadersLayouts from "./headers/HeadersLayouts";
 import Footer1 from "./footers/Footer1";
 import Footer2 from "./footers/Footer2";
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 const Layouts = ({
   children,
@@ -24,6 +25,7 @@ const Layouts = ({
 
   return (
     <Fragment>
+      <GoogleAnalytics/>
       {!noheader && (
         <HeadersLayouts headerTopbar={headerTopbar} position={position} />
       )}
