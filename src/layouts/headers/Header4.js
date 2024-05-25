@@ -50,10 +50,13 @@ const Header4 = () => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  {/* <span className="dd-trigger">
+                  <Link href="/doctor">Shop</Link>
+                </li>
+                {/* <li>
+                  <span className="dd-trigger">
                     <Link href="/gallery">Our Gallery</Link>
-                  </span> */}
-                  {/* <ul className="sub-menu">
+                  </span>
+                  <ul className="sub-menu">
                     <li>
                       <Link href="service">
                         <a>
@@ -68,8 +71,8 @@ const Header4 = () => {
                       </ul>
                     </li>
                     <Pages />
-                  </ul> */}
-                </li>
+                  </ul>
+                </li> */}
                 {/* <li>
                   <Link href="/doctor">
                     <a>
@@ -83,7 +86,7 @@ const Header4 = () => {
                     <Doctor />
                   </ul>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href="blog-standard">
                     <a>
                       Blog
@@ -95,7 +98,7 @@ const Header4 = () => {
                   <ul className="sub-menu">
                     <Blog />
                   </ul>
-                </li>
+                </li> */}
                 {/* <li>
                   <Link href="/shop">
                     <a>

@@ -54,6 +54,7 @@ const Footer1 = ({ noNewsletters }) => {
                   <p>
                     For more information or to get involved, contact us:
                   </p>
+                  
                   <ul className="contact-list">
                     <li>
                       <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
@@ -74,8 +75,10 @@ const Footer1 = ({ noNewsletters }) => {
                       </a>
                     </li>
                   </ul>
+                  
                 </div>
               </div>
+              
               <div className="col-lg-6">
                 <div className="row">
                   {/* <div className="col-xl-5 col-md-6">
@@ -168,7 +171,7 @@ const Footer1 = ({ noNewsletters }) => {
               </div>
               <div className="col-lg-3 col-md-10">
                 <div className="widget newsletters-widget">
-                  <h4 className="widget-title">Check out other blogs </h4>
+                  {/* <h4 className="widget-title">Check out other blogs </h4> */}
                   <div className="footer-logo">
                     <a href="https://www.raciit.org/">
                     <img src="assets/img/rotalogo.png" alt="Medibo" />

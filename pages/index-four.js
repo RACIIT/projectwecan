@@ -173,6 +173,69 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== Why Choose Section End ======*/}
+         {/*====== Why Choose Section Start ======*/}
+         <section className="wcu-section section-gap-top">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-10">
+                <div className="section-heading heading-white text-center mb-40">
+                  <span className="tagline">Why Choose Our Medical</span>
+                  <h2 className="title">
+                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center">
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Optimize Your Health Care Services</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Boost Employee Engagement</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/02.jpg" alt="Image" />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div className="image-title-box mt-30">
+                  <h4 className="title">
+                    <Link href="/service">
+                      <a>Accelerate Your Return On Investment</a>
+                    </Link>
+                  </h4>
+                  <div className="image">
+                    <img src="assets/img/img-title-box/03.jpg" alt="Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*====== Why Choose Section End ======*/}
         {/*====== About Section Start ======*/}
         <section className="about-section section-gap-top">
           <div className="container mx-auto my-4">
@@ -211,167 +274,7 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== About Section End ======*/}
-        {/*====== Service Section Start ======*/}
-        <section className="service-section bg-color-primary section-gap-top">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-6 col-md-10">
-                <div className="section-heading heading-white text-center mb-70">
-                  <span className="tagline">Popular Dental Services</span>
-                  <h2 className="title">
-                    Benefit FOr Physical Mental and Virtual Care
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="iconic-boxes-big-image">
-              <div className="row justify-content-lg-between justify-content-center first-row">
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 first-column">
-                  <div
-                    className="single-iconic-item wow fadeInLeft"
-                    data-wow-delay="0.4s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Break the stigma</a>
-                    </h4>
-                    <p>
-                      Breaking the period stigma through education and open dialogue and encouraging positive attitudes towards menstruation</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 second-column">
-                  <div
-                    className="single-iconic-item wow fadeInRight"
-                    data-wow-delay="0.4s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Promote Health and Hygiene</a>
-                    </h4>
-                    <p>Promoting menstrual health and hygiene for all.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row justify-content-lg-between justify-content-center second-row">
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 first-column">
-                  <div
-                    className="single-iconic-item wow fadeInLeft"
-                    data-wow-delay="0.5s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Combat Period poverty</a>
-                    </h4>
-                    <p>Combat period poverty with sustainable and reusable products.</p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 second-column">
-                  <div
-                    className="single-iconic-item wow fadeInRight"
-                    data-wow-delay="0.5s"
-                  >
-                    <div className="icon">
-                      <i className="flaticon-tooth-1" />
-                    </div>
-                    <h4 className="title">
-                      <a href="#">Tooth Extractions</a>
-                    </h4>
-                    <p>Sed ut perspic unde omnis serror voluptatem</p>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="assets/img/iconic-box/tooth.png"
-                alt="Image"
-                className="big-image"
-              />
-              <img
-                src="assets/img/iconic-box/border-line.png"
-                alt="Image"
-                className="border-image"
-              />
-            </div>
-          </div>
-        </section>
-        {/*====== Service Section End ======*/}
-        {/*====== Appointment Section Start ======*/}
-        <section className="appointment-section section-gap">
-          <div className="container">
-            <div className="appointment-form-two">
-              <div className="form-wrap">
-                <div className="section-heading mb-40">
-                  <span className="tagline">Make an Appointment</span>
-                  <h2 className="title">Make an Appointment to Doctor Visit</h2>
-                </div>
-                <form
-                  onSubmit={(e) => e.preventDefault()}
-                  action="#"
-                  className="wow fadeInUp"
-                  data-wow-delay="0.3s"
-                >
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="input-field">
-                        <input type="text" placeholder="Your Full Name" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <select>
-                          <option value={1} selected disabled="">
-                            Services Category
-                          </option>
-                          <option value={2}>Service One</option>
-                          <option value={3}>Service Two</option>
-                          <option value={4}>Service Three</option>
-                          <option value={5}>Service Four</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <select>
-                          <option value={1} selected disabled="">
-                            Choose Doctors
-                          </option>
-                          <option value={2}>Doctor One</option>
-                          <option value={3}>Doctor Two</option>
-                          <option value={4}>Doctor Three</option>
-                          <option value={5}>Doctor Four</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <input type="date" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="input-field">
-                        <button type="submit" className="template-btn">
-                          Make an Appointment <i className="far fa-plus" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <div
-                className="appointment-image"
-                style={{
-                  backgroundImage: "url(assets/img/appointment/05.jpg)",
-                }}
-              ></div>
-            </div>
-          </div>
-        </section>
-        {/*====== Appointment Section End ======*/}
+       
         {/*====== Doctors With Counter Start ======*/}
         <div className="doctors-with-counter">
           {/*====== Doctor Section Start ======*/}
@@ -562,13 +465,11 @@ const Index4 = () => {
             </div>
           </section> */}
           {/*====== Doctor Section End ======*/}
-          {/*====== Counter Section Start ======*/}
 
-          {/*====== Counter Section End ======*/}
         </div>
         {/*====== Doctors With Counter End ======*/}
-        {/*====== Testimonial Section Start ======*/}
-        <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
+         {/*====== Testimonial Section Start ======*/}
+         <section className="testimonial-section testimonial-two-bg section-gap bg-color-primary">
           <div className="container">
             <div className="testimonial-slider-three">
               <div className="row justify-content-center">
@@ -587,8 +488,8 @@ const Index4 = () => {
           />
         </section>
         {/*====== Testimonial Section End ======*/}
-        {/*====== Help Section Start ======*/}
-        <section className="help-section section-gap">
+         {/*====== Help Section Start ======*/}
+         <section className="help-section section-gap">
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center">
               <div className="col-lg-6 col-md-10">
@@ -634,8 +535,8 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== Help Section End ======*/}
-        {/*====== Partner Section start ======*/}
-        <section className="partner-section section-gap bg-color-grey section-map-overly-2">
+          {/*====== Partner Section start ======*/}
+          <section className="partner-section section-gap bg-color-grey section-map-overly-2">
           <div className="container">
             <div className="section-heading text-center mb-50">
               <h2 className="title">Sponsors and Partners</h2>
@@ -710,7 +611,6 @@ const Index4 = () => {
           </div>
         </section>
         {/*====== Partner Section end ======*/}
-
 
         {/*====== Latest Blog Start ======*/}
         <section className="latest-blog-section section-gap">
