@@ -4,7 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import ProductSelect from "../src/components/select/ProductSelect";
 import Layouts from "../src/layouts/Layouts";
 import { getPagination, pagination } from "../src/utils";
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const Shop = () => {
   let sort = 6;
   const [active, setActive] = useState(1);
