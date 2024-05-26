@@ -5,7 +5,7 @@ import Script from 'next/script';
 const GoogleAnalytics = () => {
   const NEXT_PUBLIC_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
-  console.log("i saw someone view >>> ",NEXT_PUBLIC_MEASUREMENT_ID)
+  // console.log("i saw someone view >>> ",NEXT_PUBLIC_MEASUREMENT_ID)
   return (
     <>
       <Script

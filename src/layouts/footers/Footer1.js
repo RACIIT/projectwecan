@@ -72,7 +72,7 @@ const Footer1 = ({ noNewsletters }) => {
                     <li>
                       <a href="tel:01267899">
                         <i className="far fa-phone" />
-                        +94 76 536 8956
+                        +94 76 242 4252
                       </a>
                     </li>
                   </ul>
@@ -125,32 +125,32 @@ const Footer1 = ({ noNewsletters }) => {
                       <h4 className="widget-title">Follow Us </h4>
                       <div className="instagram-images">
 
-                        <a href="https://www.instagram.com/rotaract_iit">
+                        <a href="https://www.instagram.com/rotaract_iit" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/01.jpg" alt="Instagram" />
                           </div>
                         </a>
-                        <a href="https://www.facebook.com/iitrotaract">
+                        <a href="https://www.facebook.com/iitrotaract" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/02.jpg" alt="fb" />
                           </div>
                         </a>
-                        <a href="https://www.youtube.com/@iitrotaract">
+                        <a href="https://www.youtube.com/@iitrotaract" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/03.jpg" alt="yt" />
                           </div>
                         </a>
-                        <a href="https://www.tiktok.com/@rotaract_iit">
+                        <a href="https://www.tiktok.com/@rotaract_iit" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/04.jpg" alt="tk" />
                           </div>
                         </a>
-                        <a href="https://www.linkedin.com/company/rotaract-club-of-iit">
+                        <a href="https://www.linkedin.com/company/rotaract-club-of-iit" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/05.jpg" alt="Linkedin" />
                           </div>
                         </a>
-                        <a href="https://www.raciit.org/">
+                        <a href="https://www.raciit.org/" target="_blank" rel="noopener noreferrer">
                           <div className="single-image">
                             <img src="assets/img/instagram/06.jpg" alt="wwww" />
                           </div>
@@ -165,7 +165,7 @@ const Footer1 = ({ noNewsletters }) => {
                 <div className="widget newsletters-widget">
                   {/* <h4 className="widget-title">Check out other blogs </h4> */}
                   <div className="footer-logo">
-                    <a href="https://www.raciit.org/">
+                    <a href="https://www.raciit.org/" target="_blank" rel="noopener noreferrer">
                       <img src="assets/img/rotalogo.png" alt="Medibo" />
                     </a>
 

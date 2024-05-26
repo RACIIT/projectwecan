@@ -478,7 +478,7 @@ const Index4 = () => {
                     </h2>
                   </div>
                   <p>
-                    PLEASE FEEL FREE TO REACH OUT TO US IF YOU ARE INTERESTED IN MAKING A DONATION, SEEKING DONATIONS, OR EXPLORING PARTNERSHIP OPPORTUNITIES.
+                  Please feel free to reach out to us if you are interested in making a donation, seeking donations, or exploring partnership opportunities.
                   </p>
                   <Link href="/contact">
                     <a
