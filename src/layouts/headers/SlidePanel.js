@@ -33,9 +33,9 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
             </li>
             <li>
               <i className="far fa-phone" />
-              <a href="tel:+01234567899">+94 76 536 8956</a>
+              <a href="tel:+01234567899">+94 77 741 2320</a>
               <br />
-              <a href="tel:+01234567899">+94 76 536 8956</a>
+              <a href="tel:+01234567899">+94 76 242 4252</a>
             </li>
           </ul>
         </div>

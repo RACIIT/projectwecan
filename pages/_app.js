@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       {loader && <PreLoader />}
       <Head>
-        <title>Wecan - RACIIT Community Initiatve</title>
+        <title>WeCan - RACIIT Community Initiatve</title>
         <link
           rel="shortcut icon"
           href="assets/img/favicon.ico"
